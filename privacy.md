@@ -1,6 +1,6 @@
 # Privacy Policy — OSTEr
 
-**Last Updated**: August 10, 2026
+**Last Updated**: November 7, 2026
 
 ---
 
@@ -23,6 +23,8 @@ OSTEr ("the App") is a local Markdown editor and viewer. This policy explains wh
   - Security-scoped bookmarks for your workspace folder and recently opened files, so OSTEr can find them again after you relaunch it.
   - Whether you've already seen the built-in welcome guide.
   - Your purchase/subscription unlock state (see below).
+  - Display preferences, such as the preview zoom level.
+- **Your open tabs**, so they come back after you quit and reopen OSTEr: which files were open, where you were reading, and the text of any tab you haven't saved yet. They are kept in a file inside OSTEr's own storage on your device (its app container), never transmitted anywhere, and updated as you work — a tab you close is dropped from it.
 
 ---
 
@@ -52,7 +54,7 @@ The App does not knowingly collect personal information from anyone, including c
 
 ## Data Retention & Deletion
 
-Local app state (bookmarks, welcome-guide flag, unlock state) lives only in `UserDefaults` on your device. Deleting the App removes it. Your Markdown files are yours — OSTEr never copies them anywhere else, so deleting the App never deletes your files.
+Local app state (bookmarks, welcome-guide flag, unlock state, display preferences) lives only in `UserDefaults` on your device, and your open tabs — including unsaved text — only in OSTEr's app container on your device. Deleting the App removes both. Your Markdown files are yours — OSTEr never copies them off your device (the only copy it keeps is the unsaved text of tabs you have open, so it isn't lost), and deleting the App never deletes your files.
 
 ---
 
@@ -81,7 +83,7 @@ For privacy questions, contact: **kwh2006+OSTEr@gmail.com**
 
 # 隱私政策 — OSTEr
 
-**最後更新**：2026 年 8 月 10 日
+**最後更新**：2026 年 11 月 7 日
 
 ---
 
@@ -104,6 +106,8 @@ OSTEr（「本應用程式」）是一款本機 Markdown 編輯／檢視工具�
   - 工作資料夾與最近開啟檔案的安全範圍書籤（security-scoped bookmark），讓 OSTEr 重新啟動後還能找到它們。
   - 您是否已經看過內建的歡迎導覽文件。
   - 您的購買／訂閱解鎖狀態（詳見下方）。
+  - 顯示偏好設定，例如預覽的縮放比例。
+- **您開著的標籤頁**，讓您結束再打開 OSTEr 時能回到原狀：開著哪些檔案、讀到哪裡，以及尚未存檔的標籤頁文字。這些內容存放在您裝置上 OSTEr 自己的儲存空間（App 容器）裡的一個檔案中，不會傳送到任何地方，並隨著您的操作更新——關閉的標籤頁就會從中移除。
 
 ---
 
@@ -133,7 +137,7 @@ OSTEr 不會跨其他公司的 App 或網站追蹤您的行為，也不使用裝
 
 ## 資料保留與刪除
 
-本機 App 狀態（書籤、歡迎導覽已讀標記、解鎖狀態）僅存在您裝置上的 `UserDefaults` 裡，刪除本應用程式即可移除。您的 Markdown 檔案是您自己的——OSTEr 從不另外複製一份到別處，所以刪除本應用程式不會刪除您的檔案。
+本機 App 狀態（書籤、歡迎導覽已讀標記、解鎖狀態、顯示偏好設定）僅存在您裝置上的 `UserDefaults` 裡，開著的標籤頁（含尚未存檔的文字）僅存在您裝置上 OSTEr 的 App 容器裡，刪除本應用程式即可一併移除。您的 Markdown 檔案是您自己的——OSTEr 從不把它們複製到您的裝置以外（唯一保留的副本是開著的標籤頁中尚未存檔的文字，以免遺失），刪除本應用程式也不會刪除您的檔案。
 
 ---
 
@@ -162,7 +166,7 @@ OSTEr 不會跨其他公司的 App 或網站追蹤您的行為，也不使用裝
 
 # プライバシーポリシー — OSTEr
 
-**最終更新日**：2026年8月10日
+**最終更新日**：2026年11月7日
 
 ---
 
@@ -185,6 +189,8 @@ OSTEr（以下「本アプリ」）は、ローカルで動作するMarkdownエ�
   - ワークスペースフォルダおよび最近開いたファイルのセキュリティスコープ付きブックマーク——OSTErを再起動した後も見つけられるようにするためのものです。
   - 内蔵のウェルカムガイドを既に見たかどうか。
   - 購入／サブスクリプションのロック解除状態（詳細は下記）。
+  - プレビューの拡大率などの表示設定。
+- **開いているタブ**——OSTErを終了して再度開いたときに元の状態に戻せるよう、開いていたファイル、読んでいた位置、未保存のタブのテキストを保存します。これらはデバイス上のOSTEr専用の保存領域（アプリコンテナ）内のファイルに保存され、どこにも送信されません。内容は操作に応じて更新され、閉じたタブはそこから削除されます。
 
 ---
 
@@ -214,7 +220,7 @@ OSTErは他社のアプリやウェブサイトを横断してユーザーの行
 
 ## データの保持と削除
 
-ローカルのアプリ状態（ブックマーク、ウェルカムガイド既読フラグ、ロック解除状態）は、デバイス上の`UserDefaults`にのみ存在します。本アプリを削除すれば、これらも削除されます。ユーザーのMarkdownファイルはユーザー自身のものです——OSTErはそれを他の場所に複製することは一切ないため、本アプリを削除してもファイルが削除されることはありません。
+ローカルのアプリ状態（ブックマーク、ウェルカムガイド既読フラグ、ロック解除状態、表示設定）はデバイス上の`UserDefaults`に、開いているタブ（未保存のテキストを含む）はデバイス上のOSTErのアプリコンテナにのみ存在します。本アプリを削除すれば、これらはすべて削除されます。ユーザーのMarkdownファイルはユーザー自身のものです——OSTErがそれをデバイスの外に複製することは一切ありません（保持する唯一のコピーは、失われないようにするための、開いているタブの未保存テキストです）。本アプリを削除してもファイルが削除されることはありません。
 
 ---
 
