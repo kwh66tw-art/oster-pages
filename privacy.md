@@ -18,7 +18,7 @@ OSTEr ("the App") is a local Markdown editor and viewer. This policy explains wh
 
 ## What Stays On Your Device
 
-- **The files you open and edit** — OSTEr reads and writes the actual Markdown files you choose, wherever they live (your Mac, iCloud Drive, Dropbox, etc.). Content never leaves your device unless you choose to export or share it yourself.
+- **The files you open and edit** — OSTEr reads and writes the actual Markdown files you choose, wherever they live (your Mac or a cloud storage service). OSTEr itself never sends your content anywhere unless you choose to export or share it yourself; files you keep in cloud storage are synced by that storage service.
 - **A small amount of local app state**, stored via Apple's `UserDefaults` on your device only, never transmitted anywhere:
   - Security-scoped bookmarks for your workspace folder and recently opened files, so OSTEr can find them again after you relaunch it.
   - Whether you've already seen the built-in welcome guide.
@@ -101,7 +101,7 @@ OSTEr（「本應用程式」）是一款本機 Markdown 編輯／檢視工具�
 
 ## 只會留在您裝置上的內容
 
-- **您開啟與編輯的檔案**——OSTEr 直接讀寫您選擇的真實 Markdown 檔案，不論檔案存放在哪裡（您的 Mac、iCloud Drive、Dropbox 等）。除非您自行選擇匯出或分享，否則內容不會離開您的裝置。
+- **您開啟與編輯的檔案**——OSTEr 直接讀寫您選擇的真實 Markdown 檔案，不論檔案存放在哪裡（您的 Mac 或雲端儲存空間）。除非您自行選擇匯出或分享，否則 OSTEr 本身不會把內容傳送到任何地方；存放在雲端儲存空間的檔案，由該服務負責同步。
 - **少量本機 App 狀態**——透過 Apple 的 `UserDefaults` 僅儲存於您的裝置上，不會傳送到任何地方：
   - 工作檔案夾與最近開啟檔案的安全範圍書籤（security-scoped bookmark），讓 OSTEr 重新啟動後仍能找到這些項目。
   - 您是否已經看過內建的歡迎導覽文件。
@@ -184,7 +184,7 @@ OSTEr（以下「本アプリ」）は、ローカルで動作するMarkdownエ�
 
 ## デバイス内にのみ保存される内容
 
-- **ユーザーが開いて編集するファイル**：OSTErは、ユーザーが選択した実際のMarkdownファイルを直接読み書きします（Mac本体、iCloud Drive、Dropboxなど、保存場所を問いません）。ユーザー自身が書き出しや共有を選択しない限り、内容がデバイスの外に出ることはありません。
+- **ユーザーが開いて編集するファイル**：OSTErは、ユーザーが選択した実際のMarkdownファイルを直接読み書きします（Mac本体やクラウドストレージなど、保存場所を問いません）。ユーザー自身が書き出しや共有を選択しない限り、OSTEr自体が内容をどこかへ送信することはありません。クラウドストレージ上のファイルは、そのサービスによって同期されます。
 - **わずかなローカルアプリ状態**：Appleの`UserDefaults`を通じてデバイス上にのみ保存され、外部には一切送信されません。
   - ワークスペースフォルダおよび最近開いたファイルのセキュリティスコープ付きブックマーク（OSTErを再起動した後もファイルを見つけられるようにするためのもの）
   - 内蔵のウェルカムガイドを閲覧済みかどうか
